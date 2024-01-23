@@ -2,7 +2,7 @@ var Typer = {
   text: '',
   accessCountimer: null,
   index: 0,
-  speed: 2,
+  speed: 1,
   file: '',
   accessCount: 0,
   deniedCount: 0,
@@ -95,7 +95,7 @@ function replaceUrls(text) {
   }
 }
 
-Typer.speed = 3;
+Typer.speed = 1;
 Typer.file = 'emperor.html';
 Typer.init();
 
